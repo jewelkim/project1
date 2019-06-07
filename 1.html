@@ -4,11 +4,10 @@
 <title>Profile - Welcome</title>
 <meta charset="utf-8">
 <style>
+  body{
+    margin:0;
+  }
 
-
-   .saw {
-     color: gray;
-   }
    a {
      color:black;
      font-size:20px;
@@ -16,50 +15,68 @@
    }
    h1{
      font-size:20px;
-     margin-left: 450px;
+     border-bottom:1px solid gray;
+     padding:0px;
+     margin-bottom:0px;
+   }
+    h2{
+
+      
+      margin-bottom:60px;
+    }
+   ol{
+     border-right:1px solid gray;
+     width:100px;
+     margin:0;
+     padding:20px;
    }
 
+   p{
+     margin-bottom:50px;
+
+   }
+ #grid {
+   display: grid;
+   grid-template-columns:150px 1fr;
+   }
+  #grid ol{
+     padding-left:20px;
+   }
+ #grid #article{
+    padding-left:25px;
+ }
+ .saw{
+   color:gray;
+ }
 </style>
-
-
-
-
-
-<h1><a href="index.html"><img src="logo.jpg" width="10%"></a></h1>
-
-<ol>
-     <a href="1.html" class="saw">Project1</a>
-     <a href="2.html">Project2</a>
-     <a href="3.html">Project3</a>
-
-</ol>
-
-
 </head>
 
-<!--
-<h1><a href="index.html">Portfolio</a></h1>
-<ol>
-<li><a href="1.html">Project1</a></li>
-<li><a href="2.html">Project2</a></li>
-<li><a href="3.html">Project3</a></li>
-
-</ol>
--->
-
-
 <body>
-<h2>Graphic design work (Photoshop /illustrator)</h2>
+<h1><a href="index.html"><img src="logo.jpg" width="8%"></a></h1>
+<div id="grid">
+   <ol>
+    <a href="1.html"class="saw">Project1</a>
+    <a href="2.html">Project2</a>
+    <a href="3.html">Project3</a>
+  </ol>
+
+  <div id="article">
+
+
+<h2>Graphic design work (Photoshop / Illustrator)</h2>
+ <div class="article">
 <img src="img_visual_main_2.jpg" width="50%"><br>
-<p>-Web banner (photoshooting,photoshop)</p>
+<p>VMD renewel work for jewelry shopping mall website (Photoshooting , Photoshop)</p>
 <img src="beaubell_br_thumb.jpg" width="25%">
 <img src="beaubell_br_thumb_sample.jpg" width="25%">
-<p>-Open market image / product deal (coupang , 11st)</p>
+
+</div>
+<p>Open market image design / Product deal upload (Coupang / 11st / Gmarket / Auction / T-mon)</p>
 
 <p><img src="thumb_1.jpg" width="25%">
 <img src="thumb_2.jpg" width="25%">
 </p>
-<p>Open market Deal detail Page
+<p>Open market Deal detail Page (Photo shooting , Page design)
 </p>
 <p><img src="beaubell_anklet_detail_1.jpg" width="25%">
 <img src="beaubell_anklet_detail_2.jpg" width="25%">
@@ -68,12 +85,8 @@
   target="blank" title="html5
   Specifications"></a>
 
-
-
-
-
 </p>
-
+</div>
 </body>
 
   </html>
